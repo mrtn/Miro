@@ -1,4 +1,4 @@
-# Miro – WordPress Theme for Mirae
+# Miro (WIP)
 
 **Miro** is a minimal, one-column WordPress theme designed to work seamlessly with the [Mirae plugin](https://github.com/mrtn/Mirae).  
 It provides a clean layout for building a Linktree-style profile page in WordPress.
