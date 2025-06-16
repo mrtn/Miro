@@ -1,17 +1,23 @@
 # Miro – WordPress Theme for Mirae
 
-**Miro** is a minimal, one-column WordPress theme built to work seamlessly with the [Mirae plugin](https://github.com/mrtn/Mirae).  
-It provides a clean, focused layout for creating a Linktree-style profile page in WordPress.
+**Miro** is a minimal, one-column WordPress theme designed to work seamlessly with the [Mirae plugin](https://github.com/mrtn/Mirae).  
+It provides a clean layout for building a Linktree-style profile page in WordPress.
 
 ---
 
-## 🎨 Features
+## 🎨 About
 
-- Single-column layout
-- Fast and minimal design
-- Optimized for mobile devices
-- Custom styling for [Mirae](https://github.com/mrtn/Mirae) buttons
-- Clean, easily extendable CSS
+Miro is based on the [Arke theme](https://github.com/DannyCooper/arke) by Danny Cooper, with adaptations to support the Mirae plugin and its styling.  
+It is perfect for anyone wanting a focused, fast-loading profile page using the `[mirae]` shortcode.
+
+---
+
+## 🌟 Features
+
+- Clean, single-column layout
+- Responsive and mobile-first
+- Minimal styling, easy to customize
+- Integrated with the [Mirae plugin](https://github.com/mrtn/Mirae)
 - Translation-ready
 
 ---
@@ -21,15 +27,8 @@ It provides a clean, focused layout for creating a Linktree-style profile page i
 1. Download or clone this repository
 2. Upload it to your `/wp-content/themes/` directory
 3. In the WordPress admin, go to **Appearance > Themes** and activate **Miro**
-4. Create a page with the `[mirae]` shortcode
-5. Go to **Settings > Reading**, and set that page as your static homepage
-
----
-
-## 🤝 Plugin Dependency
-
-This theme is intended to be used together with the  
-👉 [Mirae Plugin (GitHub)](https://github.com/mrtn/Mirae)
+4. Create a page and insert the `[mirae]` shortcode
+5. Set that page as your static homepage via **Settings > Reading**
 
 ---
 
@@ -40,17 +39,24 @@ This theme is intended to be used together with the
 
 ---
 
+## 🔗 Plugin Dependency
+
+This theme is intended to be used together with:  
+👉 **[Mirae Plugin](https://github.com/mrtn/Mirae)**
+
+---
+
 ## 📄 License
 
 **License:** GPLv2 or later  
 **License URI:** [https://www.gnu.org/licenses/gpl-2.0.html](https://www.gnu.org/licenses/gpl-2.0.html)
 
 Miro is distributed under the terms of the GNU GPL.  
-It is based on the [Arke theme](https://github.com/DannyCooper/arke) by **Danny Cooper**, and includes elements from:
+It includes elements from:
 
-- **normalize.css** – (C) 2012–2016 Nicolas Gallagher and Jonathan Neal  
-  [http://necolas.github.io/normalize.css/](http://necolas.github.io/normalize.css/)  
-  Licensed under the [MIT License](http://opensource.org/licenses/MIT)
+- [**Arke**](https://github.com/DannyCooper/arke) by Danny Cooper  
+- [**normalize.css**](http://necolas.github.io/normalize.css/) by Nicolas Gallagher and Jonathan Neal  
+  (MIT License – [http://opensource.org/licenses/MIT](http://opensource.org/licenses/MIT))
 
 ---
 
@@ -66,5 +72,5 @@ Website: [maartenkumpen.com](https://maartenkumpen.com)
 ### 1.0.0 – Initial Release
 
 - Based on Arke
-- Integrated with Mirae plugin
-- Custom styles for front-end buttons and layout
+- Mirae integration
+- Custom styles for link buttons
