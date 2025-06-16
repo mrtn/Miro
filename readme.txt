@@ -1,57 +1,70 @@
-=== Arke ===
+# Miro – WordPress Theme for Mirae
 
-Contributors: DannyCooper
-Requires at least: 4.0
-Tested up to: 6.0
-Stable tag: 1.1.3
-License: GPLv2 or later
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
-GitHub Theme URI: https://github.com/DannyCooper/arke
-Tags: one-column, custom-menu, editor-style, featured-images, full-width-template, threaded-comments, translation-ready, blog
+**Miro** is a minimal, one-column WordPress theme built to work seamlessly with the [Mirae plugin](https://github.com/mrtn/Mirae).  
+It provides a clean, focused layout for creating a Linktree-style profile page in WordPress.
 
-A starter theme called Arke.
+---
 
-Arke WordPress Theme, Copyright 2018 Danny Cooper
-Arke is distributed under the terms of the GNU GPL
+## 🎨 Features
 
-== Description ==
+- Single-column layout
+- Fast and minimal design
+- Optimized for mobile devices
+- Custom styling for [Mirae](https://github.com/mrtn/Mirae) buttons
+- Clean, easily extendable CSS
+- Translation-ready
 
-Arke is a lightweight starter theme built using core WordPress functions. It doesn't use any frameworks or libraries, this makes it fast, simple and easy to customize!
+---
 
-Arke uses very minimal, low-specificity CSS rules, making it very easy to customize and overwrite using your own custom CSS code.
+## 📦 Installation
 
-The clean, fast, standards-compliant code ensures Arke is Search Engine Optimized (SEO).
+1. Download or clone this repository
+2. Upload it to your `/wp-content/themes/` directory
+3. In the WordPress admin, go to **Appearance > Themes** and activate **Miro**
+4. Create a page with the `[mirae]` shortcode
+5. Go to **Settings > Reading**, and set that page as your static homepage
 
-== Installation ==
+---
 
-1. In your admin panel, go to Appearance > Themes and click the Add New button.
-2. Click Upload and Choose File, then select the theme's .zip file. Click Install Now.
-3. Click Activate to use your new theme right away.
+## 🤝 Plugin Dependency
 
-== Frequently Asked Questions ==
+This theme is intended to be used together with the  
+👉 [Mirae Plugin (GitHub)](https://github.com/mrtn/Mirae)
 
-= Does this theme support any plugins? =
+---
 
-Arke includes support for Infinite Scroll in Jetpack.
+## 🧰 Requirements
 
-== Changelog ==
+- WordPress 6.0 or higher
+- PHP 7.4 or higher
 
-= 1.1.3 - Oct 13 2022 =
-* Fix error in Customizer
+---
 
-= 1.1.2 - Feb 25 2021 =
-* Fix Jetpack infinite scroll.
+## 📄 License
 
-= 1.0.2 - May 30 2019 =
-* Add divider when multiple posts are shown on homepage.
-* Fix embed widths.
+**License:** GPLv2 or later  
+**License URI:** [https://www.gnu.org/licenses/gpl-2.0.html](https://www.gnu.org/licenses/gpl-2.0.html)
 
-= 1.0.1 - May 10 2018 =
-* Add notice.
+Miro is distributed under the terms of the GNU GPL.  
+It is based on the [Arke theme](https://github.com/DannyCooper/arke) by **Danny Cooper**, and includes elements from:
 
-= 1.0.0 - May 10 2018 =
-* Initial release.
+- **normalize.css** – (C) 2012–2016 Nicolas Gallagher and Jonathan Neal  
+  [http://necolas.github.io/normalize.css/](http://necolas.github.io/normalize.css/)  
+  Licensed under the [MIT License](http://opensource.org/licenses/MIT)
 
-== Credits ==
+---
 
-* normalize.css http://necolas.github.io/normalize.css/, (C) 2012-2016 Nicolas Gallagher and Jonathan Neal, [MIT](http://opensource.org/licenses/MIT)
+## 🙋‍♂️ Author
+
+**Maarten Kumpen**  
+Website: [maartenkumpen.com](https://maartenkumpen.com)
+
+---
+
+## 🕘 Version History
+
+### 1.0.0 – Initial Release
+
+- Based on Arke
+- Integrated with Mirae plugin
+- Custom styles for front-end buttons and layout
