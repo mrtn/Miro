@@ -222,3 +222,14 @@ if ( ! function_exists( 'wp_body_open' ) ) :
 endif;
 
 $tags_list = get_the_tag_list( '', esc_html__( ', ', 'arke' ) );
+
+
+/**
+ *  Added for Mirae Plugin
+ */
+add_filter('body_class', function($classes) {
+    if (is_front_page()) {
+        $classes[] = 'miro-custom-background';
+    }
+    return $classes;
+});
