@@ -48,7 +48,6 @@ Use it to make something cool, have fun, and share what you've learned with othe
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
-
 html {
 	font-family: sans-serif;
 	-webkit-text-size-adjust: 100%;
@@ -1015,5 +1014,22 @@ object {
 /*
 	Added for the Mirae Plugin
 */
+body.home.admin-bar {
+  overflow-y: hidden;
+}
 
+body.home.admin-bar .content-area {
+  padding-top: calc(4rem + 32px);
+}
 
+body.home {
+  min-height: 100dvh;
+}
+
+body.home .content-area {
+  padding-top: 4rem;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
