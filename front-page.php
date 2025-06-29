@@ -102,6 +102,15 @@ function closeCreditsModal() {
   </div>
 </div>
 
+<!-- Credits Modal -->
+<div id="credits-modal" class="hidden">
+  <div class="modal-content">
+    <span class="close" onclick="closeCreditsModal()">&times;</span>
+    <h2>Credits</h2>
+    <p>Website design door Maarten Kumpen.<br>Icons via Font Awesome.<br>© 2025 Mirae.</p>
+  </div>
+</div>
+
 <!-- Credits Trigger -->
 <div id="credits-button">
   <button onclick="openCreditsModal()" id="credits-icon" aria-label="Open credits">
@@ -116,16 +125,8 @@ function closeCreditsModal() {
   </button>
 </div>
 
-<!-- Credits Modal -->
-<div id="credits-modal" class="hidden">
-  <div class="modal-content">
-    <span class="close" onclick="closeCreditsModal()">&times;</span>
-    <h2>Credits</h2>
-    <p>Website design door Maarten Kumpen.<br>Icons via Font Awesome.<br>© 2025 Mirae.</p>
-  </div>
-</div>
-
-
 <?php
 
 get_footer();
+
+?>

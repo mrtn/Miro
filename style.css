@@ -1058,18 +1058,16 @@ body.home .content-area {
 
 #credits-button {
   position: fixed;
-  bottom: 8px;
-  right: 0px;
-  z-index: 999;
+  right: 12px;
+  bottom: 12px;
+  z-index: 9999;
+  pointer-events: auto;
 }
 
 #credits-button button {
-  background: none;
-  border: none;
-  padding: 0;
-  margin: 0;
+  all: unset; /* reset alle default browser styles */
   cursor: pointer;
-  color: #fff;
+  color: white;
 }
 
 #credits-button svg {
