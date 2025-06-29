@@ -31,6 +31,17 @@ function hex_to_rgba($hex, $alpha = 0.8) {
 
 ?>
 
+<script>
+function openCreditsModal() {
+  document.getElementById('credits-modal').classList.remove('hidden');
+}
+
+function closeCreditsModal() {
+  document.getElementById('credits-modal').classList.add('hidden');
+}
+</script>
+
+
 <?php if ($pattern): ?>
     <div style="
       position: fixed;
@@ -90,6 +101,30 @@ function hex_to_rgba($hex, $alpha = 0.8) {
 		</div>
   </div>
 </div>
+
+<!-- Credits Trigger -->
+<div id="credits-button">
+  <button onclick="openCreditsModal()" id="credits-icon" aria-label="Open credits">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+        xmlns="http://www.w3.org/2000/svg">
+      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10
+        10-4.48 10-10S17.52 2 12 2zm0 15
+        c-.83 0-1.5-.67-1.5-1.5S11.17 14 12 14
+        s1.5.67 1.5 1.5S12.83 17 12 17zm1-4
+        h-2V7h2v6z"/>
+    </svg>
+  </button>
+</div>
+
+<!-- Credits Modal -->
+<div id="credits-modal" class="hidden">
+  <div class="modal-content">
+    <span class="close" onclick="closeCreditsModal()">&times;</span>
+    <h2>Credits</h2>
+    <p>Website design door Maarten Kumpen.<br>Icons via Font Awesome.<br>© 2025 Mirae.</p>
+  </div>
+</div>
+
 
 <?php
 
