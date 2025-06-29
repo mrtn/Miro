@@ -1033,3 +1033,25 @@ body.home .content-area {
 *, *::before, *::after {
   box-sizing: border-box;
 }
+
+@media (max-width: 768px) {
+  .button-stack {
+    justify-content: center;
+  }
+}
+
+.button-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.button-stack a {
+  width: 100%;
+  max-width: 250px; /* of hoeveel je wilt */
+  text-align: center;
+}
