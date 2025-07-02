@@ -61,6 +61,7 @@ function closeCreditsModal() {
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
+      background-attachment: fixed;
       font-family: system-ui, sans-serif;
       color: white;
       min-height: 100vh;

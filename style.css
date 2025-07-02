@@ -1014,6 +1014,11 @@ object {
 /*
 	Added for the Mirae Plugin
 */
+html, body {
+  height: auto;
+  overflow-y: auto;
+}
+
 body.home.admin-bar {
   overflow-y: hidden;
 }
@@ -1065,7 +1070,7 @@ body.home .content-area {
 }
 
 #credits-button button {
-  all: unset; /* reset alle default browser styles */
+  all: unset;
   cursor: pointer;
   color: white;
 }
