@@ -706,7 +706,8 @@ body {
 }
 
 .entry-header {
-	margin-bottom: 32px
+	margin-bottom: 32px;
+	margin-top: 48px; /* added for the Miro theme */
 }
 
 .entry-title {
